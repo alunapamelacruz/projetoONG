@@ -1,0 +1,107 @@
+*{
+				margin: 0;
+				padding: 0;
+				font-family: 'Josefin Sans', sans-serif;
+}
+body{
+				background-image: url('../img/bgong.jpeg');
+				background-position: center;
+				background-repeat: repeat;
+}
+h1{
+				justify-content: center;
+				align-items: center;
+				color: #9c3a34;
+				margin-top: 40px;				
+}
+h2{
+				justify-content: center;
+				align-items: center;
+				color: #9c3a34;
+}
+img{
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				padding-top: 40px;
+				padding-left: 2%;
+				padding-right: 2%;
+				width: 50%;
+				height: 50%;
+				margin:auto;
+			  overflow:hidden;
+			  border: 4px;
+			  border-color: #ff6a7f;
+}
+nav{
+				list-style-type: none;
+				display: inline-block;
+				padding: 5px 25px;
+				align-items: center;
+				justify-content: center;
+				padding-left: 20%;
+				padding-right: 20%;								
+}
+nav.ul{
+				list-style-type: none;
+				margin: -10px;
+				padding: 0;
+				overflow: hidden;
+				position: relative;
+				top: 0;
+}
+li{
+				display: inline;
+				float: left;
+				border-right: 1px solid #bbb;
+}
+li:first-child{
+				border-right: none;
+}
+li a{
+				display: block;
+				color: #000000;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+}
+a{
+				display: block;
+				padding: 10px;
+				background-color: #dddddd;
+				font-color: #000000;
+}
+li a:hover{
+				background-color: #aab5ff;
+				
+}
+.active{
+				background-color: #ffa995;
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+footer{
+				background-color: #ffa995;
+				display: flex;
+				align-items: center;
+}
+p{
+				display: flex;
+				align-items: center;
+}
+footer img{
+				width: 15%;
+				height: 15%;
+}
